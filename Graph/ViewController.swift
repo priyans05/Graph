@@ -7,14 +7,22 @@
 //
 
 import UIKit
+import Macaw
 
 class ViewController: UIViewController {
 
+    @IBOutlet private weak var graphView: MacawView!
+    
+   
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
     }
 
-
+    @IBAction func showChartTapped(_ sender: Any) {
+    }
+    
 }
 
